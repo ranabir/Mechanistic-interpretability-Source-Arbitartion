@@ -2,7 +2,6 @@
 
 ### Mechanistic Interpretability of Source Arbitration Across Instruction-Tuned Language Models
 
-> **ICML 2026 Mechanistic Interpretability Workshop Submission**
 
 When a retrieval-augmented language model encounters a document that contradicts its parametric knowledge, it must decide whether to follow the document or rely on memory. This repository contains the code, data, and manuscript for a mechanistic investigation of this **source-arbitration circuit** across three instruction-tuned models.
 
