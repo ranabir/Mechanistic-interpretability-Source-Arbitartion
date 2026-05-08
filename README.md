@@ -13,14 +13,14 @@ When a retrieval-augmented language model encounters a document that contradicts
 <tr>
 <td width="50%">
 
-**🔬 The Instruction-Reader Finding**
+** The Instruction-Reader Finding**
 
 Context-override heads do not read the document. They attend primarily to the question/instruction region (25–57%) while assigning negligible attention to document tokens—yet they substantially influence whether the model follows the document answer.
 
 </td>
 <td width="50%">
 
-**🧠 Three Distinct Strategies**
+** Three Distinct Strategies**
 
 | Strategy | Model | Mechanism |
 |---|---|---|
