@@ -1,0 +1,30 @@
+{
+  "model": "qwen2_5_3b_instruct",
+  "timestamp": "2026-05-07T16:10:16.687457",
+  "min_margin": 0.5,
+  "funnel": {
+    "model": "qwen2_5_3b_instruct",
+    "regimes": {
+      "explicit_context": {
+        "total_corrupt_prompts": 189,
+        "corrupt_passes_margin": 160,
+        "clean_generated": 160,
+        "clean_passes_margin": 133,
+        "valid_pairs": 133,
+        "excluded_corrupt_weak": 29,
+        "excluded_clean_weak": 6,
+        "excluded_clean_context_won": 21
+      },
+      "ambiguous_conflict": {
+        "total_corrupt_prompts": 189,
+        "corrupt_passes_margin": 162,
+        "clean_generated": 162,
+        "clean_passes_margin": 136,
+        "valid_pairs": 136,
+        "excluded_corrupt_weak": 27,
+        "excluded_clean_weak": 10,
+        "excluded_clean_context_won": 16
+      }
+    }
+  }
+}

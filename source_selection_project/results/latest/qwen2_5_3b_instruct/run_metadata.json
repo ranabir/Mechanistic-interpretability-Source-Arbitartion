@@ -1,0 +1,13 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "python_version": "3.11.5",
+  "torch_version": "2.11.0",
+  "transformers_version": "5.8.0",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "timestamp": "2026-05-07T15:54:17.549336",
+  "git_commit": "unknown",
+  "config_file": "experiment_defaults.yaml",
+  "random_seed": 42
+}

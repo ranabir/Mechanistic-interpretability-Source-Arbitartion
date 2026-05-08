@@ -1,0 +1,55 @@
+{
+  "model": "qwen2_5_3b_instruct",
+  "patching_peak_delta": {
+    "mean": -13.28055,
+    "ci95": [
+      -13.3684,
+      -13.1927
+    ],
+    "n": 60
+  },
+  "top_head_delta_sps": {
+    "head": "L31.H10",
+    "mean": -0.252002,
+    "ci95": [
+      -0.3838,
+      -0.1202
+    ],
+    "n": 40
+  },
+  "top_dla": {
+    "head": "L33.H9",
+    "mean": 0.3235,
+    "ci95": [
+      0.2104,
+      0.4366
+    ],
+    "n": 40,
+    "ctx_logit": 0.4984,
+    "mem_logit": 0.1748
+  },
+  "attention_doc": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_heads": 5
+  },
+  "attention_question": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_heads": 5
+  },
+  "steering_alpha_neg50": {
+    "delta_sps": -0.455,
+    "ci95": [
+      -2.6543,
+      1.7443
+    ],
+    "n": 40
+  }
+}

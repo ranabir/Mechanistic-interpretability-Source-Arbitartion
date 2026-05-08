@@ -1,0 +1,127 @@
+{
+  "model": "qwen2_5_1_5b_instruct",
+  "n_pairs": 40,
+  "method": "additive_approximation",
+  "candidate_heads": [
+    {
+      "k": 1,
+      "heads": [
+        "L27.H1"
+      ],
+      "cumulative_delta_sps": -0.1197,
+      "ci95": [
+        -0.1681,
+        -0.0713
+      ]
+    },
+    {
+      "k": 3,
+      "heads": [
+        "L27.H1",
+        "L27.H8",
+        "L26.H9"
+      ],
+      "cumulative_delta_sps": -0.3551,
+      "ci95": [
+        -0.4337,
+        -0.2764
+      ]
+    },
+    {
+      "k": 5,
+      "heads": [
+        "L27.H1",
+        "L27.H8",
+        "L26.H9",
+        "L25.H2",
+        "L26.H8"
+      ],
+      "cumulative_delta_sps": -0.3445,
+      "ci95": [
+        -0.4497,
+        -0.2394
+      ]
+    },
+    {
+      "k": 10,
+      "heads": [
+        "L27.H1",
+        "L27.H8",
+        "L26.H9",
+        "L25.H2",
+        "L26.H8",
+        "L27.H5",
+        "L26.H5",
+        "L25.H10",
+        "L27.H7",
+        "L25.H0"
+      ],
+      "cumulative_delta_sps": -0.4592,
+      "ci95": [
+        -0.6098,
+        -0.3086
+      ]
+    }
+  ],
+  "random_late_heads": [
+    {
+      "k": 1,
+      "heads": [
+        "L26.H11"
+      ],
+      "cumulative_delta_sps": -0.001,
+      "ci95": [
+        -0.0342,
+        0.0322
+      ]
+    },
+    {
+      "k": 3,
+      "heads": [
+        "L26.H11",
+        "L26.H4",
+        "L25.H3"
+      ],
+      "cumulative_delta_sps": 0.0043,
+      "ci95": [
+        -0.0615,
+        0.0701
+      ]
+    },
+    {
+      "k": 5,
+      "heads": [
+        "L26.H11",
+        "L26.H4",
+        "L25.H3",
+        "L27.H11",
+        "L27.H9"
+      ],
+      "cumulative_delta_sps": -0.0287,
+      "ci95": [
+        -0.1247,
+        0.0672
+      ]
+    },
+    {
+      "k": 10,
+      "heads": [
+        "L26.H11",
+        "L26.H4",
+        "L25.H3",
+        "L27.H11",
+        "L27.H9",
+        "L25.H7",
+        "L26.H6",
+        "L26.H7",
+        "L26.H2",
+        "L26.H10"
+      ],
+      "cumulative_delta_sps": -0.2045,
+      "ci95": [
+        -0.333,
+        -0.0759
+      ]
+    }
+  ]
+}

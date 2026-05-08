@@ -1,0 +1,82 @@
+{
+  "model": "gemma_2_2b_it",
+  "regime": "explicit_context",
+  "num_pairs": 60,
+  "seed": 42,
+  "timestamp": "2026-05-07T20:19:08.194785",
+  "conditions": {
+    "baseline": {
+      "heads": [],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.7576
+    },
+    "top": {
+      "heads": [
+        {
+          "layer": 22,
+          "head": 1
+        },
+        {
+          "layer": 22,
+          "head": 2
+        },
+        {
+          "layer": 22,
+          "head": 6
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.8395,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": 0.0819
+    },
+    "random_mid": {
+      "heads": [
+        {
+          "layer": 5,
+          "head": 4
+        },
+        {
+          "layer": 9,
+          "head": 4
+        },
+        {
+          "layer": 7,
+          "head": 2
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.7667,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": 0.0091
+    },
+    "other_late": {
+      "heads": [
+        {
+          "layer": 22,
+          "head": 5
+        },
+        {
+          "layer": 22,
+          "head": 0
+        },
+        {
+          "layer": 22,
+          "head": 7
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.2265,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": -0.5311
+    }
+  }
+}

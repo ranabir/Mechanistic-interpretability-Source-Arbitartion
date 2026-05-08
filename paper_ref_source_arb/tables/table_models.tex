@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Property} & \textbf{Qwen-3B} & \textbf{Qwen-1.5B} & \textbf{Gemma-2B} \\
+\midrule
+Architecture & Qwen2.5 & Qwen2.5 & Gemma-2 \\
+Layers & 36 & 28 & 26 \\
+Hidden dim & 2048 & 1536 & 2304 \\
+Attn heads & 16 & 12 & 8 \\
+\midrule
+Single-token valid & 189 & 189 & 243 \\
+Matched pairs (explicit) & 133 & 149 & 227 \\
+Pair yield & 70.4\% & 78.8\% & 93.4\% \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Model architectures and dataset filtering funnel. Gemma's higher yield reflects stronger baseline context-adherence.}
+\label{tab:models}
+\end{table}

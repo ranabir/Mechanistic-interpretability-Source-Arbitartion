@@ -1,0 +1,166 @@
+{
+  "model": "qwen2_5_1_5b_instruct",
+  "regime": "naturalistic_rag",
+  "total_prompts": 501,
+  "single_token_both_valid": 189,
+  "multi_token_at_least_one": 312,
+  "excluded_no_valid_variants_either_side": 0,
+  "excluded_no_context_single_token": 61,
+  "excluded_no_memory_single_token": 43,
+  "excluded_neither_single_token": 208,
+  "category_distribution_before": {
+    "geography": 137,
+    "chemistry": 90,
+    "astronomy": 22,
+    "biology": 66,
+    "physics": 25,
+    "history": 50,
+    "literature": 30,
+    "music": 22,
+    "mathematics": 26,
+    "sports": 33
+  },
+  "category_distribution_after_single": {
+    "geography": 57,
+    "chemistry": 46,
+    "astronomy": 15,
+    "biology": 22,
+    "physics": 6,
+    "history": 3,
+    "music": 8,
+    "mathematics": 11,
+    "sports": 21
+  },
+  "category_distribution_after_multi": {
+    "geography": 80,
+    "chemistry": 44,
+    "astronomy": 7,
+    "biology": 44,
+    "physics": 19,
+    "history": 47,
+    "literature": 30,
+    "music": 14,
+    "mathematics": 15,
+    "sports": 12
+  },
+  "answer_length_distribution_before": {
+    "4": 146,
+    "5": 79,
+    "8": 48,
+    "7": 59,
+    "6": 112,
+    "10": 40,
+    "9": 39,
+    "3": 41,
+    "13": 29,
+    "11": 35,
+    "12": 21,
+    "25": 1,
+    "14": 8,
+    "2": 190,
+    "1": 120,
+    "20": 1,
+    "17": 4,
+    "21": 1,
+    "15": 10,
+    "18": 2,
+    "16": 9,
+    "19": 7
+  },
+  "answer_length_distribution_after_single": {
+    "4": 21,
+    "5": 16,
+    "8": 8,
+    "6": 25,
+    "10": 6,
+    "9": 8,
+    "7": 14,
+    "3": 3,
+    "2": 29,
+    "1": 57,
+    "13": 1,
+    "11": 1
+  },
+  "excluded_examples_sample": [
+    {
+      "prompt_id": "p_faa3aa397c",
+      "fact_id": "fact_50f768a4d5",
+      "category": "geography",
+      "context_answer": "Rio",
+      "memory_answer": "Brasilia",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_42ac55692e",
+      "fact_id": "fact_18aa9e9202",
+      "category": "geography",
+      "context_answer": "Mumbai",
+      "memory_answer": "New Delhi",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_2a7b1cf889",
+      "fact_id": "fact_ca64e96245",
+      "category": "geography",
+      "context_answer": "St Petersburg",
+      "memory_answer": "Moscow",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_1c9ed5ffb1",
+      "fact_id": "fact_2874804b8c",
+      "category": "geography",
+      "context_answer": "Cancun",
+      "memory_answer": "Mexico City",
+      "reason": "neither"
+    },
+    {
+      "prompt_id": "p_248e00fbf8",
+      "fact_id": "fact_286046a449",
+      "category": "geography",
+      "context_answer": "Cape Town",
+      "memory_answer": "Pretoria",
+      "reason": "neither"
+    },
+    {
+      "prompt_id": "p_ba93e9ebfa",
+      "fact_id": "fact_44005944e3",
+      "category": "geography",
+      "context_answer": "Cordoba",
+      "memory_answer": "Buenos Aires",
+      "reason": "neither"
+    },
+    {
+      "prompt_id": "p_42d7e08dad",
+      "fact_id": "fact_2617dd9d80",
+      "category": "geography",
+      "context_answer": "Cusco",
+      "memory_answer": "Lima",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_36b2d050be",
+      "fact_id": "fact_0222835aa1",
+      "category": "geography",
+      "context_answer": "Medellin",
+      "memory_answer": "Bogota",
+      "reason": "neither"
+    },
+    {
+      "prompt_id": "p_bf7c551d94",
+      "fact_id": "fact_ec31e79d2e",
+      "category": "geography",
+      "context_answer": "Valparaiso",
+      "memory_answer": "Santiago",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_7597f72603",
+      "fact_id": "fact_650f37efb4",
+      "category": "geography",
+      "context_answer": "Isfahan",
+      "memory_answer": "Tehran",
+      "reason": "no_context_single_token"
+    }
+  ]
+}

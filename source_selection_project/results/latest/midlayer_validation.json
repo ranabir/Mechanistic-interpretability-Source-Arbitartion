@@ -1,0 +1,44 @@
+{
+  "qwen2_5_3b_instruct": {
+    "L5": {
+      "avg_delta": 0.00632,
+      "max_abs_delta": 1.933594
+    },
+    "L15": {
+      "avg_delta": -0.006082,
+      "max_abs_delta": 1.726562
+    },
+    "L20": {
+      "avg_delta": 0.000467,
+      "max_abs_delta": 1.929688
+    }
+  },
+  "qwen2_5_1_5b_instruct": {
+    "L5": {
+      "avg_delta": 0.036133,
+      "max_abs_delta": 0.609375
+    },
+    "L10": {
+      "avg_delta": -0.061947,
+      "max_abs_delta": 0.78125
+    },
+    "L15": {
+      "avg_delta": -0.050065,
+      "max_abs_delta": 0.765625
+    }
+  },
+  "gemma_2_2b_it": {
+    "L5": {
+      "avg_delta": 0.00885,
+      "max_abs_delta": 0.25
+    },
+    "L10": {
+      "avg_delta": -0.010022,
+      "max_abs_delta": 0.320312
+    },
+    "L15": {
+      "avg_delta": -0.02663,
+      "max_abs_delta": 0.617188
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Head set} & \textbf{Qwen-3B} & \textbf{Qwen-1.5B} & \textbf{Gemma-2B} \\
+\midrule
+Top-1 & $-0.25$ {\tiny $[\pm0.13]$} & $-0.12$ {\tiny $[\pm0.05]$} & $-0.25$ {\tiny $[\pm0.07]$} \\
+Top-3 & $-0.74$ {\tiny $[\pm0.21]$} & $-0.36$ {\tiny $[\pm0.08]$} & $-0.70$ {\tiny $[\pm0.11]$} \\
+Top-5 & $-1.17$ {\tiny $[\pm0.27]$} & $-0.34$ {\tiny $[\pm0.11]$} & $-0.98$ {\tiny $[\pm0.13]$} \\
+Top-10 & $-2.09$ {\tiny $[\pm0.34]$} & $-0.46$ {\tiny $[\pm0.15]$} & $-1.54$ {\tiny $[\pm0.17]$} \\
+\midrule
+Rand-3 (late) & $-0.07$ {\tiny $[\pm0.22]$} & $+0.00$ {\tiny $[\pm0.07]$} & $-0.14$ {\tiny $[\pm0.09]$} \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Cumulative head-set patching ($\Delta$SPS, additive approx.). Top-$k$ candidate heads monotonically increase, far exceeding random late-layer controls. 95\% CIs in brackets.}
+\label{tab:cumulative}
+\end{table}

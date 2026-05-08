@@ -1,0 +1,55 @@
+{
+  "model": "gemma_2_2b_it",
+  "patching_peak_delta": {
+    "mean": -14.070311,
+    "ci95": [
+      -14.1158,
+      -14.0248
+    ],
+    "n": 60
+  },
+  "top_head_delta_sps": {
+    "head": "L22.H1",
+    "mean": -0.252979,
+    "ci95": [
+      -0.3212,
+      -0.1848
+    ],
+    "n": 40
+  },
+  "top_dla": {
+    "head": "L22.H5",
+    "mean": 0.171,
+    "ci95": [
+      0.1066,
+      0.2354
+    ],
+    "n": 40,
+    "ctx_logit": -0.0456,
+    "mem_logit": -0.2166
+  },
+  "attention_doc": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_heads": 5
+  },
+  "attention_question": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_heads": 5
+  },
+  "steering_alpha_neg50": {
+    "delta_sps": -1.2934,
+    "ci95": [
+      -2.1918,
+      -0.395
+    ],
+    "n": 40
+  }
+}

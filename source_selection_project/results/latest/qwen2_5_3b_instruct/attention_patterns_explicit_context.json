@@ -1,0 +1,59 @@
+{
+  "model": "qwen2_5_3b_instruct",
+  "regime": "explicit_context",
+  "num_pairs": 40,
+  "seed": 42,
+  "timestamp": "2026-05-07T20:32:49.715914",
+  "heads": {
+    "(31, 10)": {
+      "layer": 31,
+      "head": 10,
+      "corrupt_doc_attn_avg": 0.0,
+      "corrupt_question_attn_avg": 0.7313,
+      "corrupt_subject_attn_avg": 0.0033,
+      "clean_question_attn_avg": 0.6848,
+      "clean_subject_attn_avg": 0.0029,
+      "n": 40
+    },
+    "(31, 4)": {
+      "layer": 31,
+      "head": 4,
+      "corrupt_doc_attn_avg": 0.0,
+      "corrupt_question_attn_avg": 0.5634,
+      "corrupt_subject_attn_avg": 0.0073,
+      "clean_question_attn_avg": 0.6581,
+      "clean_subject_attn_avg": 0.0164,
+      "n": 40
+    },
+    "(31, 8)": {
+      "layer": 31,
+      "head": 8,
+      "corrupt_doc_attn_avg": 0.0,
+      "corrupt_question_attn_avg": 0.4702,
+      "corrupt_subject_attn_avg": 0.0054,
+      "clean_question_attn_avg": 0.6777,
+      "clean_subject_attn_avg": 0.0078,
+      "n": 40
+    },
+    "(31, 7)": {
+      "layer": 31,
+      "head": 7,
+      "corrupt_doc_attn_avg": 0.0,
+      "corrupt_question_attn_avg": 0.3743,
+      "corrupt_subject_attn_avg": 0.0036,
+      "clean_question_attn_avg": 0.6568,
+      "clean_subject_attn_avg": 0.0021,
+      "n": 40
+    },
+    "(31, 5)": {
+      "layer": 31,
+      "head": 5,
+      "corrupt_doc_attn_avg": 0.0,
+      "corrupt_question_attn_avg": 0.7403,
+      "corrupt_subject_attn_avg": 0.0023,
+      "clean_question_attn_avg": 0.694,
+      "clean_subject_attn_avg": 0.0048,
+      "n": 40
+    }
+  }
+}

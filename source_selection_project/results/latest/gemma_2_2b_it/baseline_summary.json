@@ -1,0 +1,90 @@
+{
+  "model": "gemma_2_2b_it",
+  "model_id": "google/gemma-2-2b-it",
+  "timestamp": "2026-05-07T16:02:55.678168",
+  "top_k_filter": 5,
+  "min_abs_margin": 0.5,
+  "seed": 42,
+  "regimes": {
+    "explicit_context": {
+      "single_token": {
+        "label": "single_token",
+        "n": 243,
+        "context_win_rate": 0.9835,
+        "memory_win_rate": 0.0165,
+        "mean_score": 6.5525,
+        "mean_abs_margin": 6.6113,
+        "passes_margin_filter": 242
+      },
+      "multi_token": {
+        "label": "multi_token",
+        "n": 258,
+        "context_win_rate": 0.5194,
+        "memory_win_rate": 0.0039,
+        "mean_score": 4.082,
+        "mean_abs_margin": 4.0901,
+        "passes_margin_filter": 134
+      }
+    },
+    "explicit_memory": {
+      "single_token": {
+        "label": "single_token",
+        "n": 243,
+        "context_win_rate": 0.2593,
+        "memory_win_rate": 0.7407,
+        "mean_score": -2.6163,
+        "mean_abs_margin": 4.9402,
+        "passes_margin_filter": 226
+      },
+      "multi_token": {
+        "label": "multi_token",
+        "n": 258,
+        "context_win_rate": 0.1977,
+        "memory_win_rate": 0.3256,
+        "mean_score": -0.5239,
+        "mean_abs_margin": 2.5411,
+        "passes_margin_filter": 127
+      }
+    },
+    "ambiguous_conflict": {
+      "single_token": {
+        "label": "single_token",
+        "n": 243,
+        "context_win_rate": 0.7819,
+        "memory_win_rate": 0.2181,
+        "mean_score": 3.7699,
+        "mean_abs_margin": 4.5867,
+        "passes_margin_filter": 223
+      },
+      "multi_token": {
+        "label": "multi_token",
+        "n": 258,
+        "context_win_rate": 0.4264,
+        "memory_win_rate": 0.0969,
+        "mean_score": 2.3529,
+        "mean_abs_margin": 3.034,
+        "passes_margin_filter": 129
+      }
+    },
+    "naturalistic_rag": {
+      "single_token": {
+        "label": "single_token",
+        "n": 243,
+        "context_win_rate": 0.9177,
+        "memory_win_rate": 0.0823,
+        "mean_score": 5.6621,
+        "mean_abs_margin": 6.1431,
+        "passes_margin_filter": 234
+      },
+      "multi_token": {
+        "label": "multi_token",
+        "n": 258,
+        "context_win_rate": 0.4961,
+        "memory_win_rate": 0.0271,
+        "mean_score": 3.8699,
+        "mean_abs_margin": 4.0074,
+        "passes_margin_filter": 132
+      }
+    }
+  }
+}

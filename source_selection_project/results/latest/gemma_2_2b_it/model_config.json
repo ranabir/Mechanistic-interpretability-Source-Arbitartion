@@ -1,0 +1,17 @@
+{
+  "num_layers": 26,
+  "num_heads": 8,
+  "num_kv_heads": 4,
+  "hidden_dim": 2304,
+  "intermediate": 9216,
+  "head_dim": 256,
+  "vocab_size": 256000,
+  "max_position": 8192,
+  "model_type": "gemma2",
+  "architectures": [
+    "Gemma2ForCausalLM"
+  ],
+  "torch_dtype": "torch.bfloat16",
+  "model_id": "google/gemma-2-2b-it",
+  "timestamp": "2026-05-07T17:57:34.258666"
+}

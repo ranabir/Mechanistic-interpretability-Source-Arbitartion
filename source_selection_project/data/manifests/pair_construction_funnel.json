@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-05-07T16:11:44.205086",
+  "min_margin": 0.5,
+  "models": {
+    "qwen2_5_3b_instruct": {
+      "model": "qwen2_5_3b_instruct",
+      "regimes": {
+        "explicit_context": {
+          "total_corrupt_prompts": 189,
+          "corrupt_passes_margin": 160,
+          "clean_generated": 160,
+          "clean_passes_margin": 133,
+          "valid_pairs": 133,
+          "excluded_corrupt_weak": 29,
+          "excluded_clean_weak": 6,
+          "excluded_clean_context_won": 21
+        },
+        "ambiguous_conflict": {
+          "total_corrupt_prompts": 189,
+          "corrupt_passes_margin": 162,
+          "clean_generated": 162,
+          "clean_passes_margin": 136,
+          "valid_pairs": 136,
+          "excluded_corrupt_weak": 27,
+          "excluded_clean_weak": 10,
+          "excluded_clean_context_won": 16
+        }
+      }
+    },
+    "qwen2_5_1_5b_instruct": {
+      "model": "qwen2_5_1_5b_instruct",
+      "regimes": {
+        "explicit_context": {
+          "total_corrupt_prompts": 189,
+          "corrupt_passes_margin": 180,
+          "clean_generated": 180,
+          "clean_passes_margin": 149,
+          "valid_pairs": 149,
+          "excluded_corrupt_weak": 9,
+          "excluded_clean_weak": 7,
+          "excluded_clean_context_won": 24
+        },
+        "ambiguous_conflict": {
+          "total_corrupt_prompts": 189,
+          "corrupt_passes_margin": 184,
+          "clean_generated": 184,
+          "clean_passes_margin": 153,
+          "valid_pairs": 153,
+          "excluded_corrupt_weak": 5,
+          "excluded_clean_weak": 9,
+          "excluded_clean_context_won": 22
+        }
+      }
+    },
+    "gemma_2_2b_it": {
+      "model": "gemma_2_2b_it",
+      "regimes": {
+        "explicit_context": {
+          "total_corrupt_prompts": 243,
+          "corrupt_passes_margin": 239,
+          "clean_generated": 239,
+          "clean_passes_margin": 227,
+          "valid_pairs": 227,
+          "excluded_corrupt_weak": 4,
+          "excluded_clean_weak": 4,
+          "excluded_clean_context_won": 8
+        },
+        "ambiguous_conflict": {
+          "total_corrupt_prompts": 243,
+          "corrupt_passes_margin": 180,
+          "clean_generated": 180,
+          "clean_passes_margin": 170,
+          "valid_pairs": 170,
+          "excluded_corrupt_weak": 63,
+          "excluded_clean_weak": 4,
+          "excluded_clean_context_won": 6
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{"fact_id": "fact_1f6c012de3", "reason": "corrupt_weak", "corrupt_score": -0.4375, "threshold": 0.5}
+{"fact_id": "fact_f9eb291d7c", "reason": "clean_margin_weak", "clean_score": -0.488281, "corrupt_score": 1.716797}
+{"fact_id": "fact_6c8b2ed7a1", "reason": "clean_context_won", "clean_score": 0.003906, "corrupt_score": 3.441406}
+{"fact_id": "fact_aad0f15cb7", "reason": "clean_margin_weak", "clean_score": -0.121094, "corrupt_score": 2.301758}
+{"fact_id": "fact_c25451923b", "reason": "clean_context_won", "clean_score": 1.023438, "corrupt_score": 7.810547}
+{"fact_id": "fact_05ed9eb49a", "reason": "clean_margin_weak", "clean_score": -0.464844, "corrupt_score": 2.65625}
+{"fact_id": "fact_5e747b6e4d", "reason": "clean_context_won", "clean_score": 0.078125, "corrupt_score": 7.916016}
+{"fact_id": "fact_af4e38b1f8", "reason": "corrupt_weak", "corrupt_score": -3.449219, "threshold": 0.5}
+{"fact_id": "fact_85e85d75a6", "reason": "clean_context_won", "clean_score": 2.445312, "corrupt_score": 13.1875}
+{"fact_id": "fact_ffacb295d5", "reason": "clean_context_won", "clean_score": 0.648438, "corrupt_score": 8.474609}
+{"fact_id": "fact_8959016b9c", "reason": "clean_margin_weak", "clean_score": -0.046875, "corrupt_score": 6.15625}
+{"fact_id": "fact_7b587f2129", "reason": "clean_context_won", "clean_score": 9.279297, "corrupt_score": 12.359375}
+{"fact_id": "fact_eee51a6fcf", "reason": "corrupt_weak", "corrupt_score": -1.351562, "threshold": 0.5}
+{"fact_id": "fact_80d1ab4841", "reason": "corrupt_weak", "corrupt_score": -1.910156, "threshold": 0.5}
+{"fact_id": "fact_8b5f90d1c9", "reason": "clean_context_won", "clean_score": 0.304688, "corrupt_score": 6.007812}
+{"fact_id": "fact_c246f18dd5", "reason": "clean_context_won", "clean_score": 1.417969, "corrupt_score": 9.96582}

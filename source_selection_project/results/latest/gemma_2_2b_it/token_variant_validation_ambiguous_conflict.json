@@ -1,0 +1,168 @@
+{
+  "model": "gemma_2_2b_it",
+  "regime": "ambiguous_conflict",
+  "total_prompts": 501,
+  "single_token_both_valid": 243,
+  "multi_token_at_least_one": 258,
+  "excluded_no_valid_variants_either_side": 0,
+  "excluded_no_context_single_token": 49,
+  "excluded_no_memory_single_token": 42,
+  "excluded_neither_single_token": 167,
+  "category_distribution_before": {
+    "geography": 137,
+    "chemistry": 90,
+    "astronomy": 22,
+    "biology": 66,
+    "physics": 25,
+    "history": 50,
+    "literature": 30,
+    "music": 22,
+    "mathematics": 26,
+    "sports": 33
+  },
+  "category_distribution_after_single": {
+    "geography": 85,
+    "chemistry": 48,
+    "astronomy": 16,
+    "biology": 30,
+    "physics": 15,
+    "history": 3,
+    "literature": 4,
+    "music": 8,
+    "mathematics": 11,
+    "sports": 23
+  },
+  "category_distribution_after_multi": {
+    "geography": 52,
+    "chemistry": 42,
+    "astronomy": 6,
+    "biology": 36,
+    "physics": 10,
+    "history": 47,
+    "literature": 26,
+    "music": 14,
+    "mathematics": 15,
+    "sports": 10
+  },
+  "answer_length_distribution_before": {
+    "4": 146,
+    "5": 79,
+    "8": 48,
+    "7": 59,
+    "6": 112,
+    "10": 40,
+    "9": 39,
+    "3": 41,
+    "13": 29,
+    "11": 35,
+    "12": 21,
+    "25": 1,
+    "14": 8,
+    "2": 190,
+    "1": 120,
+    "20": 1,
+    "17": 4,
+    "21": 1,
+    "15": 10,
+    "18": 2,
+    "16": 9,
+    "19": 7
+  },
+  "answer_length_distribution_after_single": {
+    "4": 34,
+    "5": 22,
+    "8": 10,
+    "6": 38,
+    "10": 10,
+    "9": 11,
+    "7": 20,
+    "12": 4,
+    "3": 4,
+    "2": 29,
+    "1": 57,
+    "13": 1,
+    "11": 3
+  },
+  "excluded_examples_sample": [
+    {
+      "prompt_id": "p_545f5add2f",
+      "fact_id": "fact_50f768a4d5",
+      "category": "geography",
+      "context_answer": "Rio",
+      "memory_answer": "Brasilia",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_fcd726e948",
+      "fact_id": "fact_18aa9e9202",
+      "category": "geography",
+      "context_answer": "Mumbai",
+      "memory_answer": "New Delhi",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_9629f71133",
+      "fact_id": "fact_ca64e96245",
+      "category": "geography",
+      "context_answer": "St Petersburg",
+      "memory_answer": "Moscow",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_ffd81b43a2",
+      "fact_id": "fact_2874804b8c",
+      "category": "geography",
+      "context_answer": "Cancun",
+      "memory_answer": "Mexico City",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_11c6fc1af1",
+      "fact_id": "fact_286046a449",
+      "category": "geography",
+      "context_answer": "Cape Town",
+      "memory_answer": "Pretoria",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_b0c504901f",
+      "fact_id": "fact_44005944e3",
+      "category": "geography",
+      "context_answer": "Cordoba",
+      "memory_answer": "Buenos Aires",
+      "reason": "no_memory_single_token"
+    },
+    {
+      "prompt_id": "p_9a1a7f09ba",
+      "fact_id": "fact_0222835aa1",
+      "category": "geography",
+      "context_answer": "Medellin",
+      "memory_answer": "Bogota",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_27836917ae",
+      "fact_id": "fact_ec31e79d2e",
+      "category": "geography",
+      "context_answer": "Valparaiso",
+      "memory_answer": "Santiago",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_1932bb842e",
+      "fact_id": "fact_650f37efb4",
+      "category": "geography",
+      "context_answer": "Isfahan",
+      "memory_answer": "Tehran",
+      "reason": "no_context_single_token"
+    },
+    {
+      "prompt_id": "p_5cd0669495",
+      "fact_id": "fact_038c326d27",
+      "category": "geography",
+      "context_answer": "Basra",
+      "memory_answer": "Baghdad",
+      "reason": "no_context_single_token"
+    }
+  ]
+}

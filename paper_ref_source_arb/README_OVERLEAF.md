@@ -1,0 +1,1 @@
+# Overleaf Compilation Instructions\n1. Zip the entire `paper_icml2026_source_arbitration` directory.\n2. Upload the zip directly into a new Overleaf project.\n3. Set compiler compiler to pdflatex.\n

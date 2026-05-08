@@ -1,0 +1,127 @@
+{
+  "model": "gemma_2_2b_it",
+  "n_pairs": 40,
+  "method": "additive_approximation",
+  "candidate_heads": [
+    {
+      "k": 1,
+      "heads": [
+        "L22.H1"
+      ],
+      "cumulative_delta_sps": -0.253,
+      "ci95": [
+        -0.3212,
+        -0.1848
+      ]
+    },
+    {
+      "k": 3,
+      "heads": [
+        "L22.H1",
+        "L22.H2",
+        "L22.H6"
+      ],
+      "cumulative_delta_sps": -0.6986,
+      "ci95": [
+        -0.8111,
+        -0.586
+      ]
+    },
+    {
+      "k": 5,
+      "heads": [
+        "L22.H1",
+        "L22.H2",
+        "L22.H6",
+        "L22.H5",
+        "L22.H7"
+      ],
+      "cumulative_delta_sps": -0.9803,
+      "ci95": [
+        -1.1134,
+        -0.8473
+      ]
+    },
+    {
+      "k": 10,
+      "heads": [
+        "L22.H1",
+        "L22.H2",
+        "L22.H6",
+        "L22.H5",
+        "L22.H7",
+        "L22.H0",
+        "L20.H5",
+        "L20.H7",
+        "L25.H4",
+        "L25.H3"
+      ],
+      "cumulative_delta_sps": -1.5378,
+      "ci95": [
+        -1.7104,
+        -1.3652
+      ]
+    }
+  ],
+  "random_late_heads": [
+    {
+      "k": 1,
+      "heads": [
+        "L22.H3"
+      ],
+      "cumulative_delta_sps": -0.0395,
+      "ci95": [
+        -0.0776,
+        -0.0014
+      ]
+    },
+    {
+      "k": 3,
+      "heads": [
+        "L22.H3",
+        "L25.H5",
+        "L20.H6"
+      ],
+      "cumulative_delta_sps": -0.1391,
+      "ci95": [
+        -0.2257,
+        -0.0524
+      ]
+    },
+    {
+      "k": 5,
+      "heads": [
+        "L22.H3",
+        "L25.H5",
+        "L20.H6",
+        "L25.H1",
+        "L20.H1"
+      ],
+      "cumulative_delta_sps": -0.2525,
+      "ci95": [
+        -0.3531,
+        -0.152
+      ]
+    },
+    {
+      "k": 10,
+      "heads": [
+        "L22.H3",
+        "L25.H5",
+        "L20.H6",
+        "L25.H1",
+        "L20.H1",
+        "L22.H4",
+        "L20.H4",
+        "L20.H2",
+        "L25.H7",
+        "L20.H3"
+      ],
+      "cumulative_delta_sps": -0.6311,
+      "ci95": [
+        -0.7645,
+        -0.4976
+      ]
+    }
+  ]
+}

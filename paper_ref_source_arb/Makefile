@@ -1,0 +1,1 @@
+all:\n\t./compile.sh\nclean:\n\trm -f *.aux *.log *.bbl *.blg *.out *.pdf\n

@@ -1,0 +1,33 @@
+{
+  "num_facts": 501,
+  "num_prompts_per_regime": 501,
+  "total_prompts": 2004,
+  "category_distribution": {
+    "geography": 137,
+    "chemistry": 90,
+    "astronomy": 22,
+    "biology": 66,
+    "physics": 25,
+    "history": 50,
+    "literature": 30,
+    "music": 22,
+    "mathematics": 26,
+    "sports": 33
+  },
+  "regimes": [
+    "explicit_context",
+    "explicit_memory",
+    "ambiguous",
+    "naturalistic"
+  ],
+  "templates_used": {
+    "explicit_context": 4,
+    "explicit_memory": 4,
+    "ambiguous": 2,
+    "naturalistic": 4
+  },
+  "random_seed": 42,
+  "timestamp": "2026-05-07T15:50:35.264186",
+  "script_path": "/Users/rono/Projects/Source-Arbitration v2/source_selection_project/scripts/00_generate_dataset.py",
+  "note": "All facts are real-world. No synthetic filler. Both single-token and multi-token answers present by design."
+}

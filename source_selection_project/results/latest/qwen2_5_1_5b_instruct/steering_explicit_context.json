@@ -1,0 +1,112 @@
+{
+  "model": "qwen2_5_1_5b_instruct",
+  "regime": "explicit_context",
+  "target_layer": 27,
+  "n_direction_pairs": 30,
+  "n_eval_pairs": 40,
+  "alphas": [
+    -50.0,
+    -30.0,
+    -20.0,
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0,
+    20.0,
+    30.0,
+    50.0
+  ],
+  "seed": 42,
+  "timestamp": "2026-05-07T22:31:55.062610",
+  "results": {
+    "-50.0": {
+      "alpha": -50.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.0959,
+      "std_sps": 2.8853
+    },
+    "-30.0": {
+      "alpha": -30.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.9014,
+      "std_sps": 2.7789
+    },
+    "-20.0": {
+      "alpha": -20.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.802,
+      "std_sps": 2.7262
+    },
+    "-10.0": {
+      "alpha": -10.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.7037,
+      "std_sps": 2.675
+    },
+    "-5.0": {
+      "alpha": -5.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.6525,
+      "std_sps": 2.6499
+    },
+    "0.0": {
+      "alpha": 0.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.6012,
+      "std_sps": 2.6249
+    },
+    "5.0": {
+      "alpha": 5.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.5518,
+      "std_sps": 2.6011
+    },
+    "10.0": {
+      "alpha": 10.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.501,
+      "std_sps": 2.578
+    },
+    "20.0": {
+      "alpha": 20.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.4027,
+      "std_sps": 2.5325
+    },
+    "30.0": {
+      "alpha": 30.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.2992,
+      "std_sps": 2.4875
+    },
+    "50.0": {
+      "alpha": 50.0,
+      "n": 40,
+      "ctx_win": 40,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.0964,
+      "std_sps": 2.4032
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": "gemma_2_2b_it",
+  "timestamp": "2026-05-07T16:11:44.145233",
+  "min_margin": 0.5,
+  "funnel": {
+    "model": "gemma_2_2b_it",
+    "regimes": {
+      "explicit_context": {
+        "total_corrupt_prompts": 243,
+        "corrupt_passes_margin": 239,
+        "clean_generated": 239,
+        "clean_passes_margin": 227,
+        "valid_pairs": 227,
+        "excluded_corrupt_weak": 4,
+        "excluded_clean_weak": 4,
+        "excluded_clean_context_won": 8
+      },
+      "ambiguous_conflict": {
+        "total_corrupt_prompts": 243,
+        "corrupt_passes_margin": 180,
+        "clean_generated": 180,
+        "clean_passes_margin": 170,
+        "valid_pairs": 170,
+        "excluded_corrupt_weak": 63,
+        "excluded_clean_weak": 4,
+        "excluded_clean_context_won": 6
+      }
+    }
+  }
+}

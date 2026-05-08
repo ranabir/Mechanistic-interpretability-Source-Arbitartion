@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Regime} & \textbf{Qwen-3B} & \textbf{Qwen-1.5B} & \textbf{Gemma-2B} \\
+\midrule
+Explicit context & 86.2\% & 95.8\% & 98.4\% \\
+Ambiguous conflict & 87.3\% & 97.9\% & 78.2\% \\
+Explicit memory & 66.7\% & 82.0\% & 25.9\% \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Baseline context-win rates (\%) across regimes. Gemma shows strong instruction-conditional gating: 98.4\% when instructed to follow context, but only 25.9\% when told to use memory.}
+\label{tab:baselines}
+\end{table}

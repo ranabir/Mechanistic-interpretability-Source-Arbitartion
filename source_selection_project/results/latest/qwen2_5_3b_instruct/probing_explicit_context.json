@@ -1,0 +1,270 @@
+{
+  "model": "qwen2_5_3b_instruct",
+  "regime": "explicit_context",
+  "num_samples": 120,
+  "n_context": 102,
+  "n_memory": 18,
+  "seed": 42,
+  "timestamp": "2026-05-07T21:49:43.214973",
+  "layers": [
+    {
+      "layer_idx": 0,
+      "layer_name": "embedding",
+      "accuracy": 0.85,
+      "std": 0.0204,
+      "depth_pct": 0.0
+    },
+    {
+      "layer_idx": 1,
+      "layer_name": "L0",
+      "accuracy": 0.7833,
+      "std": 0.085,
+      "depth_pct": 2.8
+    },
+    {
+      "layer_idx": 2,
+      "layer_name": "L1",
+      "accuracy": 0.825,
+      "std": 0.0486,
+      "depth_pct": 5.6
+    },
+    {
+      "layer_idx": 3,
+      "layer_name": "L2",
+      "accuracy": 0.8417,
+      "std": 0.0667,
+      "depth_pct": 8.3
+    },
+    {
+      "layer_idx": 4,
+      "layer_name": "L3",
+      "accuracy": 0.8333,
+      "std": 0.0589,
+      "depth_pct": 11.1
+    },
+    {
+      "layer_idx": 5,
+      "layer_name": "L4",
+      "accuracy": 0.85,
+      "std": 0.0425,
+      "depth_pct": 13.9
+    },
+    {
+      "layer_idx": 6,
+      "layer_name": "L5",
+      "accuracy": 0.8583,
+      "std": 0.05,
+      "depth_pct": 16.7
+    },
+    {
+      "layer_idx": 7,
+      "layer_name": "L6",
+      "accuracy": 0.85,
+      "std": 0.0425,
+      "depth_pct": 19.4
+    },
+    {
+      "layer_idx": 8,
+      "layer_name": "L7",
+      "accuracy": 0.825,
+      "std": 0.0408,
+      "depth_pct": 22.2
+    },
+    {
+      "layer_idx": 9,
+      "layer_name": "L8",
+      "accuracy": 0.85,
+      "std": 0.0425,
+      "depth_pct": 25.0
+    },
+    {
+      "layer_idx": 10,
+      "layer_name": "L9",
+      "accuracy": 0.8417,
+      "std": 0.0312,
+      "depth_pct": 27.8
+    },
+    {
+      "layer_idx": 11,
+      "layer_name": "L10",
+      "accuracy": 0.8417,
+      "std": 0.0553,
+      "depth_pct": 30.6
+    },
+    {
+      "layer_idx": 12,
+      "layer_name": "L11",
+      "accuracy": 0.8333,
+      "std": 0.0697,
+      "depth_pct": 33.3
+    },
+    {
+      "layer_idx": 13,
+      "layer_name": "L12",
+      "accuracy": 0.8,
+      "std": 0.0553,
+      "depth_pct": 36.1
+    },
+    {
+      "layer_idx": 14,
+      "layer_name": "L13",
+      "accuracy": 0.8167,
+      "std": 0.0624,
+      "depth_pct": 38.9
+    },
+    {
+      "layer_idx": 15,
+      "layer_name": "L14",
+      "accuracy": 0.8167,
+      "std": 0.0677,
+      "depth_pct": 41.7
+    },
+    {
+      "layer_idx": 16,
+      "layer_name": "L15",
+      "accuracy": 0.8167,
+      "std": 0.0677,
+      "depth_pct": 44.4
+    },
+    {
+      "layer_idx": 17,
+      "layer_name": "L16",
+      "accuracy": 0.8083,
+      "std": 0.0425,
+      "depth_pct": 47.2
+    },
+    {
+      "layer_idx": 18,
+      "layer_name": "L17",
+      "accuracy": 0.825,
+      "std": 0.0553,
+      "depth_pct": 50.0
+    },
+    {
+      "layer_idx": 19,
+      "layer_name": "L18",
+      "accuracy": 0.825,
+      "std": 0.0553,
+      "depth_pct": 52.8
+    },
+    {
+      "layer_idx": 20,
+      "layer_name": "L19",
+      "accuracy": 0.825,
+      "std": 0.0667,
+      "depth_pct": 55.6
+    },
+    {
+      "layer_idx": 21,
+      "layer_name": "L20",
+      "accuracy": 0.825,
+      "std": 0.0312,
+      "depth_pct": 58.3
+    },
+    {
+      "layer_idx": 22,
+      "layer_name": "L21",
+      "accuracy": 0.825,
+      "std": 0.0553,
+      "depth_pct": 61.1
+    },
+    {
+      "layer_idx": 23,
+      "layer_name": "L22",
+      "accuracy": 0.8167,
+      "std": 0.0565,
+      "depth_pct": 63.9
+    },
+    {
+      "layer_idx": 24,
+      "layer_name": "L23",
+      "accuracy": 0.8167,
+      "std": 0.0425,
+      "depth_pct": 66.7
+    },
+    {
+      "layer_idx": 25,
+      "layer_name": "L24",
+      "accuracy": 0.8083,
+      "std": 0.0425,
+      "depth_pct": 69.4
+    },
+    {
+      "layer_idx": 26,
+      "layer_name": "L25",
+      "accuracy": 0.8,
+      "std": 0.0486,
+      "depth_pct": 72.2
+    },
+    {
+      "layer_idx": 27,
+      "layer_name": "L26",
+      "accuracy": 0.8083,
+      "std": 0.0624,
+      "depth_pct": 75.0
+    },
+    {
+      "layer_idx": 28,
+      "layer_name": "L27",
+      "accuracy": 0.8167,
+      "std": 0.0677,
+      "depth_pct": 77.8
+    },
+    {
+      "layer_idx": 29,
+      "layer_name": "L28",
+      "accuracy": 0.825,
+      "std": 0.0486,
+      "depth_pct": 80.6
+    },
+    {
+      "layer_idx": 30,
+      "layer_name": "L29",
+      "accuracy": 0.825,
+      "std": 0.0486,
+      "depth_pct": 83.3
+    },
+    {
+      "layer_idx": 31,
+      "layer_name": "L30",
+      "accuracy": 0.825,
+      "std": 0.0486,
+      "depth_pct": 86.1
+    },
+    {
+      "layer_idx": 32,
+      "layer_name": "L31",
+      "accuracy": 0.825,
+      "std": 0.0486,
+      "depth_pct": 88.9
+    },
+    {
+      "layer_idx": 33,
+      "layer_name": "L32",
+      "accuracy": 0.85,
+      "std": 0.0333,
+      "depth_pct": 91.7
+    },
+    {
+      "layer_idx": 34,
+      "layer_name": "L33",
+      "accuracy": 0.8417,
+      "std": 0.0312,
+      "depth_pct": 94.4
+    },
+    {
+      "layer_idx": 35,
+      "layer_name": "L34",
+      "accuracy": 0.8333,
+      "std": 0.0373,
+      "depth_pct": 97.2
+    },
+    {
+      "layer_idx": 36,
+      "layer_name": "L35",
+      "accuracy": 0.85,
+      "std": 0.05,
+      "depth_pct": 100.0
+    }
+  ]
+}

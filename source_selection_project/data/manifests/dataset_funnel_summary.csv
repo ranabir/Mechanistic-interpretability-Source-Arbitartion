@@ -1,0 +1,13 @@
+model,regime,total,single_token,multi_token,pct_single
+qwen2_5_3b_instruct,explicit_context,501,189,312,37.7
+qwen2_5_3b_instruct,explicit_memory,501,189,312,37.7
+qwen2_5_3b_instruct,ambiguous_conflict,501,189,312,37.7
+qwen2_5_3b_instruct,naturalistic_rag,501,189,312,37.7
+qwen2_5_1_5b_instruct,explicit_context,501,189,312,37.7
+qwen2_5_1_5b_instruct,explicit_memory,501,189,312,37.7
+qwen2_5_1_5b_instruct,ambiguous_conflict,501,189,312,37.7
+qwen2_5_1_5b_instruct,naturalistic_rag,501,189,312,37.7
+gemma_2_2b_it,explicit_context,501,243,258,48.5
+gemma_2_2b_it,explicit_memory,501,243,258,48.5
+gemma_2_2b_it,ambiguous_conflict,501,243,258,48.5
+gemma_2_2b_it,naturalistic_rag,501,243,258,48.5

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Metric} & \textbf{Qwen-3B} & \textbf{Qwen-1.5B} & \textbf{Gemma-2B} \\
+\midrule
+Peak layer & L33 & L27 & L25 \\
+Peak depth (\%) & 94.3 & 100.0 & 100.0 \\
+Peak $\Delta$SPS & $-13.28$ & $-11.39$ & $-14.07$ \\
+\midrule
+Top head & L31.H10 & L27.H1 & L22.H1 \\
+Top head $\Delta$SPS & $-0.25 \pm 0.13$ & $-0.12 \pm 0.05$ & $-0.25 \pm 0.07$ \\
+Sig.\ heads ($|\Delta\text{SPS}|{>}0.1$) & 20 & 7 & 9 \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Circuit localization via residual stream and head patching. All models localize context-override to the final 6--12\% of depth. Top head $\Delta$SPS shows 95\% CI margins.}
+\label{tab:patching}
+\end{table}

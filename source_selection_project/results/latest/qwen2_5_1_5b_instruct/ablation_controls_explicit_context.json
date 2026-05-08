@@ -1,0 +1,82 @@
+{
+  "model": "qwen2_5_1_5b_instruct",
+  "regime": "explicit_context",
+  "num_pairs": 60,
+  "seed": 42,
+  "timestamp": "2026-05-07T20:18:24.313776",
+  "conditions": {
+    "baseline": {
+      "heads": [],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.0669
+    },
+    "top": {
+      "heads": [
+        {
+          "layer": 27,
+          "head": 1
+        },
+        {
+          "layer": 27,
+          "head": 8
+        },
+        {
+          "layer": 26,
+          "head": 9
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.5922,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": -0.4747
+    },
+    "random_mid": {
+      "heads": [
+        {
+          "layer": 5,
+          "head": 4
+        },
+        {
+          "layer": 8,
+          "head": 0
+        },
+        {
+          "layer": 12,
+          "head": 5
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 6.2189,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": 0.152
+    },
+    "other_late": {
+      "heads": [
+        {
+          "layer": 27,
+          "head": 3
+        },
+        {
+          "layer": 27,
+          "head": 6
+        },
+        {
+          "layer": 27,
+          "head": 7
+        }
+      ],
+      "n": 60,
+      "ctx_win": 60,
+      "ctx_win_pct": 100.0,
+      "mean_sps": 5.7315,
+      "delta_ctx_win_pct": 0.0,
+      "delta_mean_sps": -0.3354
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "model": "qwen2_5_3b_instruct",
+  "regime": "ambiguous_conflict",
+  "num_pairs": 40,
+  "seed": 42,
+  "timestamp": "2026-05-07T20:59:26.312747",
+  "heads": {
+    "(31, 14)": {
+      "layer": 31,
+      "head": 14,
+      "avg_dla": 0.0628,
+      "std_dla": 0.2385,
+      "avg_ctx_logit": 0.3107,
+      "avg_mem_logit": 0.2479,
+      "n": 40,
+      "pct_positive": 62.5
+    },
+    "(33, 14)": {
+      "layer": 33,
+      "head": 14,
+      "avg_dla": 0.3694,
+      "std_dla": 0.827,
+      "avg_ctx_logit": 0.924,
+      "avg_mem_logit": 0.5546,
+      "n": 40,
+      "pct_positive": 60.0
+    },
+    "(33, 9)": {
+      "layer": 33,
+      "head": 9,
+      "avg_dla": 0.5161,
+      "std_dla": 0.4182,
+      "avg_ctx_logit": 0.6675,
+      "avg_mem_logit": 0.1514,
+      "n": 40,
+      "pct_positive": 87.5
+    },
+    "(32, 9)": {
+      "layer": 32,
+      "head": 9,
+      "avg_dla": 0.2745,
+      "std_dla": 0.2705,
+      "avg_ctx_logit": 0.4244,
+      "avg_mem_logit": 0.1499,
+      "n": 40,
+      "pct_positive": 80.0
+    },
+    "(31, 5)": {
+      "layer": 31,
+      "head": 5,
+      "avg_dla": 0.0943,
+      "std_dla": 0.191,
+      "avg_ctx_logit": 0.16,
+      "avg_mem_logit": 0.0658,
+      "n": 40,
+      "pct_positive": 70.0
+    },
+    "(33, 5)": {
+      "layer": 33,
+      "head": 5,
+      "avg_dla": 0.403,
+      "std_dla": 0.4338,
+      "avg_ctx_logit": 0.575,
+      "avg_mem_logit": 0.172,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    "(33, 12)": {
+      "layer": 33,
+      "head": 12,
+      "avg_dla": 0.3956,
+      "std_dla": 0.4522,
+      "avg_ctx_logit": 0.5628,
+      "avg_mem_logit": 0.1672,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    "(32, 5)": {
+      "layer": 32,
+      "head": 5,
+      "avg_dla": 0.2673,
+      "std_dla": 0.222,
+      "avg_ctx_logit": 0.4008,
+      "avg_mem_logit": 0.1335,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    "(33, 8)": {
+      "layer": 33,
+      "head": 8,
+      "avg_dla": 0.3663,
+      "std_dla": 0.3859,
+      "avg_ctx_logit": 0.6892,
+      "avg_mem_logit": 0.3229,
+      "n": 40,
+      "pct_positive": 82.5
+    },
+    "(32, 1)": {
+      "layer": 32,
+      "head": 1,
+      "avg_dla": 0.1975,
+      "std_dla": 0.2178,
+      "avg_ctx_logit": 0.4003,
+      "avg_mem_logit": 0.2029,
+      "n": 40,
+      "pct_positive": 77.5
+    }
+  },
+  "ranked": [
+    {
+      "layer": 33,
+      "head": 9,
+      "avg_dla": 0.5161,
+      "std_dla": 0.4182,
+      "avg_ctx_logit": 0.6675,
+      "avg_mem_logit": 0.1514,
+      "n": 40,
+      "pct_positive": 87.5
+    },
+    {
+      "layer": 33,
+      "head": 5,
+      "avg_dla": 0.403,
+      "std_dla": 0.4338,
+      "avg_ctx_logit": 0.575,
+      "avg_mem_logit": 0.172,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    {
+      "layer": 33,
+      "head": 12,
+      "avg_dla": 0.3956,
+      "std_dla": 0.4522,
+      "avg_ctx_logit": 0.5628,
+      "avg_mem_logit": 0.1672,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    {
+      "layer": 33,
+      "head": 14,
+      "avg_dla": 0.3694,
+      "std_dla": 0.827,
+      "avg_ctx_logit": 0.924,
+      "avg_mem_logit": 0.5546,
+      "n": 40,
+      "pct_positive": 60.0
+    },
+    {
+      "layer": 33,
+      "head": 8,
+      "avg_dla": 0.3663,
+      "std_dla": 0.3859,
+      "avg_ctx_logit": 0.6892,
+      "avg_mem_logit": 0.3229,
+      "n": 40,
+      "pct_positive": 82.5
+    },
+    {
+      "layer": 32,
+      "head": 9,
+      "avg_dla": 0.2745,
+      "std_dla": 0.2705,
+      "avg_ctx_logit": 0.4244,
+      "avg_mem_logit": 0.1499,
+      "n": 40,
+      "pct_positive": 80.0
+    },
+    {
+      "layer": 32,
+      "head": 5,
+      "avg_dla": 0.2673,
+      "std_dla": 0.222,
+      "avg_ctx_logit": 0.4008,
+      "avg_mem_logit": 0.1335,
+      "n": 40,
+      "pct_positive": 85.0
+    },
+    {
+      "layer": 32,
+      "head": 1,
+      "avg_dla": 0.1975,
+      "std_dla": 0.2178,
+      "avg_ctx_logit": 0.4003,
+      "avg_mem_logit": 0.2029,
+      "n": 40,
+      "pct_positive": 77.5
+    },
+    {
+      "layer": 31,
+      "head": 5,
+      "avg_dla": 0.0943,
+      "std_dla": 0.191,
+      "avg_ctx_logit": 0.16,
+      "avg_mem_logit": 0.0658,
+      "n": 40,
+      "pct_positive": 70.0
+    },
+    {
+      "layer": 31,
+      "head": 14,
+      "avg_dla": 0.0628,
+      "std_dla": 0.2385,
+      "avg_ctx_logit": 0.3107,
+      "avg_mem_logit": 0.2479,
+      "n": 40,
+      "pct_positive": 62.5
+    }
+  ]
+}

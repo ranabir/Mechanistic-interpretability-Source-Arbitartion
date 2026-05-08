@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Metric} & \textbf{Qwen-3B} & \textbf{Qwen-1.5B} & \textbf{Gemma-2B} \\
+\midrule
+Top DLA head & L33.H9 & L27.H7 & L22.H5 \\
+DLA score & $0.324 \pm 0.11$ & $0.373 \pm 0.16$ & $0.171 \pm 0.06$ \\
+Ctx logit & $+0.498$ & $+0.763$ & $-0.046$ \\
+Mem logit & $+0.175$ & $+0.390$ & $-0.217$ \\
+Neg-DLA heads & 0 & 3 & 2 \\
+\midrule
+Avg doc attn & 0.0\% & 0.0\% & 0.0\% \\
+Avg question attn & 57.6\% & 38.5\% & 24.2\% \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Direct Logit Attribution and attention patterns (95\% CI margins for DLA). All models show 0\% document attention---context-override heads read the instruction, not the document.}
+\label{tab:dla_attn}
+\end{table}
